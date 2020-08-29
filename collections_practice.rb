@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort
 end
@@ -28,7 +30,7 @@ def kesha_maker(array)
     puts word_array.length
     word_array[2] = "$"
     word_array.join("")
-    final_array << word_array
+    binding.pry
   end
   puts final_array
 end
