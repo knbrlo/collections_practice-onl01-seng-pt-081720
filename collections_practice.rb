@@ -24,6 +24,6 @@ def kesha_maker(array)
   array.each do |item|
 
     word_array = item.split("")
-    puts word_array
+    puts word_array.length
   end
 end
