@@ -27,6 +27,7 @@ def kesha_maker(array)
     word_array = item.split("")
     puts word_array.length
     word_array[2] = "$"
+    word_array.join("")
     final_array << word_array
   end
   puts final_array
