@@ -21,9 +21,13 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  final_array = []
   array.each do |item|
 
     word_array = item.split("")
     puts word_array.length
+    word_array[2] = $
+    final_array << word_array
   end
+  puts final_array
 end
