@@ -33,5 +33,9 @@ def kesha_maker(array)
     final_array << joined_array
     binding.pry
   end
-  puts final_array
+
+  if final_array.length == array.length
+    return final_array
+  end
+
 end
