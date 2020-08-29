@@ -30,6 +30,7 @@ def kesha_maker(array)
     puts word_array.length
     word_array[2] = "$"
     joined_array = word_array.join("")
+    final_array << joined_array
     binding.pry
   end
   puts final_array
