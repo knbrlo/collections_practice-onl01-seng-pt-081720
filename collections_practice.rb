@@ -22,6 +22,7 @@ end
 
 def kesha_maker(array)
   array.each do |item|
-    puts item.split("")
+
+    puts item.split("").index
   end
 end
